@@ -5,10 +5,10 @@ These are editorial keyword hypotheses based on the service scope and the assets
 | Intent | Phrase | Helpful destination |
 |---|---|---|
 | Core service research | document conversion service | README custom-service paragraph and the service page |
-| Service comparison / task research | document conversion services | README downloads and usage guide |
-| Service comparison / task research | bulk document conversion | README downloads and usage guide |
-| Service comparison / task research | document digitisation services | README downloads and usage guide |
-| Service comparison / task research | OCR document conversion | README downloads and usage guide |
+| Service comparison / task research | document conversion services | README screenshot gallery and usage guide |
+| Service comparison / task research | bulk document conversion | README screenshot gallery and usage guide |
+| Service comparison / task research | document digitisation services | README screenshot gallery and usage guide |
+| Service comparison / task research | OCR document conversion | README screenshot gallery and usage guide |
 
 ## Country modifiers
 
@@ -19,7 +19,7 @@ These are editorial keyword hypotheses based on the service scope and the assets
 ## Suggested GitHub settings
 
 - Repository name: `document-conversion-service-toolkit`
-- About description: Fillable document conversion inventory templates, a CSV batch manifest and an OCR/conversion handover checklist for US, UK and Australia.
+- About description: Unbranded document conversion inventory screenshots, a CSV manifest and OCR/batch handover guidance for US, UK and Australia.
 - Website: https://pdfserviceexperts.com/services/document-conversion-services/
 - Topics: `document-conversion`, `batch-processing`, `ocr`, `document-digitization`, `pdf-forms`, `csv`
 
