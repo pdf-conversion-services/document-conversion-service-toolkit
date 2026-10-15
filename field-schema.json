@@ -1,0 +1,248 @@
+{
+  "us": {
+    "batch": {
+      "label": "Batch reference",
+      "type": "text",
+      "options": null
+    },
+    "date": {
+      "label": "Review date (MM/DD/YYYY)",
+      "type": "text",
+      "options": null
+    },
+    "target": {
+      "label": "Output format",
+      "type": "choice",
+      "options": [
+        "Select output",
+        "Searchable PDF",
+        "DOCX",
+        "XLSX",
+        "Mixed outputs"
+      ]
+    },
+    "language": {
+      "label": "OCR language(s)",
+      "type": "text",
+      "options": null
+    },
+    "file_1": {
+      "label": "Source file / group 1",
+      "type": "text",
+      "options": null
+    },
+    "pages_1": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_1": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "file_2": {
+      "label": "Source file / group 2",
+      "type": "text",
+      "options": null
+    },
+    "pages_2": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_2": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "file_3": {
+      "label": "Source file / group 3",
+      "type": "text",
+      "options": null
+    },
+    "pages_3": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_3": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "acceptance": {
+      "label": "Naming rules and acceptance criteria",
+      "type": "text",
+      "options": null
+    },
+    "inventory_checked": {
+      "label": "I have checked the inventory against the source files.",
+      "type": "checkbox"
+    }
+  },
+  "uk": {
+    "batch": {
+      "label": "Batch reference",
+      "type": "text",
+      "options": null
+    },
+    "date": {
+      "label": "Review date (DD/MM/YYYY)",
+      "type": "text",
+      "options": null
+    },
+    "target": {
+      "label": "Output format",
+      "type": "choice",
+      "options": [
+        "Select output",
+        "Searchable PDF",
+        "DOCX",
+        "XLSX",
+        "Mixed outputs"
+      ]
+    },
+    "language": {
+      "label": "OCR language(s)",
+      "type": "text",
+      "options": null
+    },
+    "file_1": {
+      "label": "Source file / group 1",
+      "type": "text",
+      "options": null
+    },
+    "pages_1": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_1": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "file_2": {
+      "label": "Source file / group 2",
+      "type": "text",
+      "options": null
+    },
+    "pages_2": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_2": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "file_3": {
+      "label": "Source file / group 3",
+      "type": "text",
+      "options": null
+    },
+    "pages_3": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_3": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "acceptance": {
+      "label": "Naming rules and acceptance criteria",
+      "type": "text",
+      "options": null
+    },
+    "inventory_checked": {
+      "label": "I have checked the inventory against the source files.",
+      "type": "checkbox"
+    }
+  },
+  "au": {
+    "batch": {
+      "label": "Batch reference",
+      "type": "text",
+      "options": null
+    },
+    "date": {
+      "label": "Review date (DD/MM/YYYY)",
+      "type": "text",
+      "options": null
+    },
+    "target": {
+      "label": "Output format",
+      "type": "choice",
+      "options": [
+        "Select output",
+        "Searchable PDF",
+        "DOCX",
+        "XLSX",
+        "Mixed outputs"
+      ]
+    },
+    "language": {
+      "label": "OCR language(s)",
+      "type": "text",
+      "options": null
+    },
+    "file_1": {
+      "label": "Source file / group 1",
+      "type": "text",
+      "options": null
+    },
+    "pages_1": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_1": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "file_2": {
+      "label": "Source file / group 2",
+      "type": "text",
+      "options": null
+    },
+    "pages_2": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_2": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "file_3": {
+      "label": "Source file / group 3",
+      "type": "text",
+      "options": null
+    },
+    "pages_3": {
+      "label": "Pages",
+      "type": "text",
+      "options": null
+    },
+    "result_3": {
+      "label": "Output filename",
+      "type": "text",
+      "options": null
+    },
+    "acceptance": {
+      "label": "Naming rules and acceptance criteria",
+      "type": "text",
+      "options": null
+    },
+    "inventory_checked": {
+      "label": "I have checked the inventory against the source files.",
+      "type": "checkbox"
+    }
+  }
+}

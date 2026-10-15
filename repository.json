@@ -1,0 +1,26 @@
+{
+  "slug": "document-conversion-service-toolkit",
+  "title": "Document Conversion Service Toolkit",
+  "form": "Document batch inventory",
+  "kind": "inventory",
+  "description": "Fillable document conversion inventory templates, a CSV batch manifest and an OCR/conversion handover checklist for US, UK and Australia.",
+  "primary": "document conversion service",
+  "secondary": [
+    "document conversion services",
+    "bulk document conversion",
+    "document digitisation services",
+    "OCR document conversion"
+  ],
+  "service": "https://pdfserviceexperts.com/services/document-conversion-services/",
+  "anchor": "document conversion service",
+  "topics": [
+    "document-conversion",
+    "batch-processing",
+    "ocr",
+    "document-digitization",
+    "pdf-forms",
+    "csv"
+  ],
+  "value": "Plan a mixed-format batch with an inventory, output specification and acceptance criteria.",
+  "guide": "Inventory a representative batch, agree the target formats and record acceptance criteria. Use the CSV manifest for larger batches. Capture OCR language and naming rules before work starts. This toolkit plans conversion and OCR work; it does not itself run OCR or convert Office documents."
+}

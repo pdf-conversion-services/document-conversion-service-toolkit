@@ -1,0 +1,4 @@
+batch_id,source_filename,source_format,pages,target_format,ocr_language,output_filename,status
+BATCH-001,workshop-001.pdf,scanned-pdf,10,searchable-pdf,en,workshop-001-searchable.pdf,planned
+BATCH-001,workshop-002.pdf,digital-pdf,20,docx,,workshop-002.docx,planned
+BATCH-001,workshop-003.png,image,1,searchable-pdf,en,workshop-003-searchable.pdf,planned

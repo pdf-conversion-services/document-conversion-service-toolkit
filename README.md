@@ -1,2 +1,47 @@
-# document-conversion-service-toolkit
-Fillable document conversion inventory templates, a CSV batch manifest and an OCR/conversion handover checklist for US, UK and Australia.
+# Document Conversion Service Toolkit
+
+Plan a mixed-format batch with an inventory, output specification and acceptance criteria. Download unbranded interactive PDF samples for the United States, United Kingdom and Australia, inspect actual PDF screenshots, or adapt the source.
+
+## Download a fillable template
+
+| Country | Paper and date format | Blank interactive PDF | Completed example screenshot |
+|---|---|---|---|
+| United States | Letter; MM/DD/YYYY | [Download US template](inventory-us-fillable.pdf) | [View US example](inventory-us-filled.png) |
+| United Kingdom | A4; DD/MM/YYYY | [Download UK template](inventory-uk-fillable.pdf) | [View UK example](inventory-uk-filled.png) |
+| Australia | A4; DD/MM/YYYY | [Download Australia template](inventory-au-fillable.pdf) | [View Australian example](inventory-au-filled.png) |
+
+![Document batch inventory with fictional sample entries, rendered directly from an interactive PDF](inventory-us-filled.png)
+
+Screenshots show filled examples for illustration. The downloadable PDFs are blank and editable. All names and entries in screenshots are fictional. No sample contains a company name or logo.
+
+## How to use the sample
+
+Inventory a representative batch, agree the target formats and record acceptance criteria. Use the CSV manifest for larger batches. Capture OCR language and naming rules before work starts. This toolkit plans conversion and OCR work; it does not itself run OCR or convert Office documents.
+
+Download the PDF before filling it. Save it, close it, reopen it and check that the values remain. Form support depends on your PDF viewer; test your intended reader before distributing a custom version.
+
+## What is included
+
+- Three country variants of the document batch inventory.
+- Blank and filled screenshots rendered with Poppler, not designed mockups.
+- Python source, field schema and automated fill/save/reopen validation results.
+- [Usage and quality guide](USAGE.md), [country notes](COUNTRIES.md) and [search intent map](SEARCH-INTENT.md).
+
+## Need a custom version?
+
+For project-specific work, see [document conversion service](https://pdfserviceexperts.com/services/document-conversion-services/). Include your source format, approximate volume and desired output when asking for a quote.
+
+## Rebuild and validate
+
+```sh
+python -m pip install -r requirements.txt
+python build_samples.py
+# Optional: install Poppler and put pdftoppm on PATH to regenerate PNGs
+python build_samples.py --render
+```
+
+The validation checks canonical AcroForm fields, unique page widgets, saved values and appearance streams. Automated checks were run during preparation; interactive clicking in third-party desktop or mobile readers has not been tested. These general business samples have not been audited for PDF/UA, WCAG or jurisdiction-specific compliance. They contain no JavaScript or remote submission actions.
+
+## License
+
+Original templates, screenshots, code and documentation are provided under the [MIT License](LICENSE). External websites retain their own terms and branding.
